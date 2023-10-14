@@ -91,6 +91,7 @@ const Nav = () => {
                           <a
                             href={item.href}
                             className='dropdown_link'
+                            onClick={()=> setToggleDropdown((prev)=>!prev)}
                           >
                             {item.label}
                           </a>
